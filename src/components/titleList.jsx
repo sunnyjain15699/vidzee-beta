@@ -32,7 +32,7 @@ class TitleList extends Component {
     let titles = "";
     if (this.state.data.results) {
       titles = this.state.data.results.map(function(title, i) {
-        // console.log(title)
+        console.log(title)
         if (i < 5) {
           let name = "";
           const backDrop =
