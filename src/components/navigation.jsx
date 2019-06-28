@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
+
 class Navigation extends Component {
   render() {
     let styles = {
         fontSize: '30px',
-        color: 'white'
+        color: 'white',
+        cursor: 'pointer'
       }
 
     return (
@@ -15,7 +17,6 @@ class Navigation extends Component {
             <li style={{color: 'white'}}>Browse</li>
             <li style={{color: 'white'}}>My list</li>
             <li style={{color: 'white'}}>Top picks</li>
-            <li style={{color: 'white'}}>Recent</li>
           </ul>
         </nav>
       </div>
