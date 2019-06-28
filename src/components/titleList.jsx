@@ -57,7 +57,7 @@ class TitleList extends Component {
         }
       });
     }
-
+    
     return (
       <div
         ref="titlecategory"
@@ -65,7 +65,7 @@ class TitleList extends Component {
         data-loaded={this.state.mounted}
       >
         <div className="Title">
-          <h1>{this.props.title}</h1>
+          <h1 className={this.props.title==="Search Results"? "searchQuery":"searchResult"}>{this.props.title}</h1>
           <div className="titles-wrapper">{titles}</div>
         </div>
       </div>

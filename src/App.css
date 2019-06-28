@@ -473,3 +473,11 @@ body{
 
 }
 
+.searchResult {
+  color: white;
+  font-size: 20px;
+}
+
+.searchQuery {
+  color:  #09b9e5;
+}
