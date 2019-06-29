@@ -3,7 +3,7 @@ import "../App.css";
 import Navigation from "./navigation";
 import TitleList from "./titleList";
 import Slider from "./slider";
-import Search from "./search";
+import SinglePage from './clickPage';
 
 class MoviesPage extends Component {
   state = { searchTerm: "", searchUrl: "" };

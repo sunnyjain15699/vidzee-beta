@@ -12,10 +12,8 @@ class App extends Component {
       <React.Fragment>
         <Switch>
           <Route path="/register" component={Register} />
-          <Route path="/movies" component={MoviesPage} />
           <Route path="/login" exact component={Login} />
-          <Route path="/not-found" component={NotFound} />
-          <Redirect to="/not-found" />
+          <Route path="/" exact component={MoviesPage} />
         </Switch>
       </React.Fragment>
     );
